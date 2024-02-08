@@ -1,0 +1,76 @@
+.dashboard{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: rebeccapurple;
+}
+.quiz {
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+    width: 15%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+/* dashboard.css */
+
+.active {
+    box-shadow: 0px 0px 14px 0px #0000001F;
+  }
+  
+.trend{
+    width: 85%;
+    background: #EDEDED;
+   position: relative;
+}
+.threebtn{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-left: 8%;
+}
+.titlequize{
+    margin-left: 15%;
+    font-family: Jomhuria;
+font-size: 38px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+color: #474444;
+
+}
+.logoutbtn{
+    margin-left: 30%;
+}
+
+.threebtn button{
+    /* box-shadow: 0px 0px 14px 0px #0000001F; */
+    background: #FFFFFF;
+    width: 176px;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+outline: none;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.logoutbtn button{
+    width: 83px;
+height: 30px;
+border: none;
+outline: none;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+background: white;
+}

@@ -1,0 +1,55 @@
+.flexform input{
+    width: 350px;
+height: 38px;
+top: 362px;
+left: 546px;
+border-radius: 10px 10px 0px 0px;
+border: 1px;
+background: #F4F4F4;
+/* color: linear-gradient(0deg, #D60000, #D60000),
+linear-gradient(0deg, #F4F4F4, #F4F4F4);
+border: 1px solid #D60000 */
+
+}
+.flexform{
+    display: flex;
+    gap: 11%;
+    margin-bottom: 4%;
+}
+.flexform label{
+    width: 40%;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 2%;
+letter-spacing: 0em;
+text-align: right;
+color: #474444;
+
+}
+.btnform{
+    cursor: pointer;
+    position: absolute;
+    width: 274px;
+height: 38px;
+Top:124%;
+Left:32%;
+border-radius: 8px;
+background: #A9BCFF;
+border: none;
+}
+input.invalid {
+    border: 1px solid #d60000;
+    color: linear-gradient(0deg, #d60000, #d60000),
+                linear-gradient(0deg, #f4f4f4, #f4f4f4);
+    color: #fff; /* Adjust text color if needed */
+  }
+  
+  .error-message {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    font-size: 12px;
+    color: #d60000;
+    /* margin-top: 4px; */
+  }

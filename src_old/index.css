@@ -1,0 +1,18 @@
+.ig{
+  width: 160px;
+  height: 32px;
+}
+.flx{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.flxc{
+  display: flex;
+  gap: 15px;
+}
+.log{
+  display: flex;
+  gap: 5px;
+  margin-left: 8px;
+}

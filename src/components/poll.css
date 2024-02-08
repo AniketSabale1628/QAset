@@ -1,0 +1,306 @@
+.popup-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    
+  }
+  
+  .popup1 {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 59%;
+    height: 83%;
+    margin-top: 2%;
+  }
+  
+  .inner-popup {
+    /* background-color: #f5f5f5; */
+    border-radius: 10px;
+    padding: 20px;
+    width: 86%;
+    /* height: 8%; */
+    /* width: 674px; */
+    /* height: 582.29px; */
+    overflow-y: auto;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .popup-button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-button {
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .additional-div {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .topcontent{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  }
+
+  .btntop{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+  }
+
+  .btntop button{
+    width: 58px;
+height: 58px;
+border-radius: 50%;
+position: relative;
+/* top: 126px;
+left: 311px */
+background: #FFFFFF;
+box-shadow: 0px 0px 10px 0px #00000026;
+border: none;
+outline: none;
+  }
+
+  .btntop button span{
+position: absolute;
+top: 0;
+right: 12%;
+  }
+
+  .flexbtn{
+    display: flex;
+    flex-direction: row;
+  }
+
+ .Addmore{
+  margin-left: 35%;
+  /* width: 24.5%;
+height: 24.5%; */
+left: 9px;
+color: #969696;
+background: white;
+border: none;
+outline: none;
+font-size: 300%;
+ }
+.textqa input {
+  width: 20px;
+  /* height: 38px; */
+  /* top: 362px;
+  left: 546px; */
+  border-radius: 10px 10px 0px 0px;
+  border: 1px;
+  background: #F4F4F4;
+}
+.textAndImage input{
+  /* width: 296px; */
+  /* width: 100%; */
+/* height: 50px; */
+top: 361px;
+left: 311px;
+border-radius: 10px;
+background: #FFFFFF;
+box-shadow: 0px 0px 25px 0px #00000026;
+
+}
+.ip1{
+  width: 30%;
+}
+.ip2{
+  width: 69%;
+} 
+.textAndImage{
+  width: 70%;
+}
+.omg{
+  display: flex;
+  position: relative;
+}
+.timer{
+  position: absolute;
+  bottom: 8%;
+  right: 12%;
+}
+.timer div{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #9F9F9F;
+  
+}
+.timer button{
+  width: 95px;
+height: 34px;
+top: 543px;
+left: 864px;
+border-radius: 10px;
+background: #FFFFFF;
+box-shadow: 0px 0px 15px 0px #00000026;
+margin-top: 2%;
+border: none;
+outline: none;
+
+}
+.ri{display: flex;}
+
+.radio{
+  width: 4%;
+  height: 100%;
+ 
+}
+
+.qainput{
+  margin-top: 4%;
+  width: 673px;
+height: 50px;
+border-radius: 10px;
+background: #FFFFFF;
+box-shadow: 0px 0px 25px 0px #00000026;
+
+ }
+
+ .image{
+  width: 100%;
+ }
+ .textimage{
+  width: 100%;
+ }
+ .text input{
+  /* width: 100%;
+  height: 42px; */
+  margin-top: 3%;
+  margin-left: 4%;
+border-radius: 10px;
+background: #FFFFFF;
+box-shadow: 0px 0px 25px 0px #00000026;
+ }
+ .ri1{
+  width: 100%;
+ }
+ .ri1 input{
+  padding-left: 2%;
+  width: 90%;
+ }
+ .ADD{
+  width: 80%;
+  height: 42px;
+  margin-top: 3%;
+  margin-left: 4%;
+border-radius: 10px;
+background: #FFFFFF;
+color: #9F9F9F;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+
+box-shadow: 0px 0px 25px 0px #00000026;
+ }
+ .image input{
+  /* width: 100%;
+  height: 42px; */
+  margin-top: 3%;
+  margin-left: 4%;
+border-radius: 10px;
+background: #FFFFFF;
+box-shadow: 0px 0px 25px 0px #00000026;
+ }
+ .image {
+  width: 50%;
+ }
+ .textimage input{
+  width: 46%;
+  height: 42px;
+  margin-top: 3%;
+  margin-left: 4%;
+border-radius: 10px;
+background: #FFFFFF;
+box-shadow: 0px 0px 25px 0px #00000026;
+ }
+ .textqa{
+  margin-top: 4%;
+  position: relative;
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  
+ }
+ .textqa div{
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #9F9F9F;
+
+ }
+
+ .radio-label {
+  display: inline-block;
+  margin-right: 15px; 
+}
+
+.remove{
+  position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#btn2 , #btn3, #btn4 ,#btn5{
+  position: relative;
+}
+
+.textbox{
+  width: 100%;
+}
+
+.text {
+  width: 50%;
+}
+
+.divedive{
+  display: flex;
+  width: 100%;
+  gap: 2%;
+  margin-top: 2%;
+}
+

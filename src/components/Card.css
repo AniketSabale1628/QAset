@@ -1,0 +1,47 @@
+input{
+    /* width: 350px; */
+height: 38px;
+top: 362px;
+left: 546px;
+border-radius: 10px 10px 0px 0px;
+border: 1px;
+background: #F4F4F4;
+/* color: linear-gradient(0deg, #D60000, #D60000),
+linear-gradient(0deg, #F4F4F4, #F4F4F4);
+border: 1px solid #D60000 */
+
+}
+.flexform{
+    display: flex;
+    gap: 11%;
+    margin-bottom: 4%;
+}
+.flexform label{
+    width: 40%;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 2%;
+letter-spacing: 0em;
+text-align: right;
+color: #474444;
+
+}
+.btnformlogin{
+    cursor: pointer;
+    position: absolute;
+    width: 274px;
+height: 38px;
+Top:64%;
+Left:32%;
+border-radius: 8px;
+background: #A9BCFF;
+border: none;
+
+}
+  
+  .error-message {
+    color: red;
+  
+  }
+  

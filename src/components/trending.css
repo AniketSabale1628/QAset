@@ -1,0 +1,218 @@
+.hhh{
+    width: 140px;
+    height: 120px;
+    background-color: rebeccapurple;
+}
+
+.quizecreate , .quation , .total{
+    width: 324px;
+height: 145px;
+top: 116px;
+left: 274px;
+border-radius: 10px;
+background: #FFFFFF;
+/* color: #FF5D01; */
+
+
+
+font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.quizecreate div{
+    color: #FF5D01;
+    margin-left: 22%;
+}
+.quation div{
+    color: #60B84B;
+    margin-left: 22%;
+}
+.total div{
+    color: #5076FF;
+    margin-left: 22%;
+}
+.quizecreate span{
+    width: 66px;
+height: 66px;
+top: 118px;
+left: 346px;
+font-family: Poppins;
+font-size: 60px;
+font-weight: 600;
+line-height: 90px;
+letter-spacing: 0em;
+text-align: left;
+color: #FF5D01;
+margin-right: 8%;
+}
+
+.quation span{
+    width: 66px;
+height: 66px;
+top: 118px;
+left: 346px;
+font-family: Poppins;
+font-size: 60px;
+font-weight: 600;
+line-height: 90px;
+letter-spacing: 0em;
+text-align: left;
+color: #5076FF;
+margin-right: 8%;
+}
+
+.total span{
+    width: 66px;
+height: 66px;
+top: 118px;
+left: 346px;
+font-family: Poppins;
+font-size: 60px;
+font-weight: 600;
+/* line-height: 70px; */
+letter-spacing: 0em;
+text-align: left;
+color: #5076FF;
+margin-right: 8%;
+}
+.quation span{
+    width: 66px;
+height: 66px;
+top: 118px;
+left: 346px;
+font-family: Poppins;
+font-size: 60px;
+font-weight: 600;
+line-height: 90px;
+letter-spacing: 0em;
+text-align: left;
+color: #60B84B;
+}
+
+.total span{
+    width: 66px;
+height: 66px;
+top: 118px;
+left: 346px;
+font-family: Poppins;
+font-size: 60px;
+font-weight: 600;
+line-height: 90px;
+letter-spacing: 0em;
+text-align: left;
+color: #5076FF;
+}
+
+.impressions{
+    display: flex;
+    gap: 37px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.quiztitle{
+    width: 265px;
+height: 53px;
+font-family: Poppins;
+font-size: 35px;
+font-weight: 600;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+color: #474444;
+
+}
+.qq{
+    position: relative;
+    width: 181px;
+height: 62px;
+border-radius: 5px;
+background: #FFFFFF;
+flex: 0 0 auto;
+  margin-right: 10px; 
+  border: 1px solid #ddd; 
+  padding: 10px; 
+  margin-left: 36px;
+}
+
+.box{
+    position: absolute;
+    width: 855px;
+height: 353px;
+top: 36%;
+left: 10%;
+border-radius: 5px;
+
+}
+
+.qtitle{
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    font-family: Poppins;
+font-size: 23px;
+font-weight: 600;
+letter-spacing: 0em;
+text-align: left;
+color: #474444;
+}
+.allcontent{
+    width: 123%;
+    height: 90%;
+top: 361px;
+left: 283px;
+border-radius: 5px;
+/* background-color: #60B84B; */
+overflow: auto; 
+overflow-x: hidden;
+}
+.qq-container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px; 
+  }
+.qnumber{
+    position: absolute;
+    top: 13%;
+    left: 68%;
+    font-family: Poppins;
+    font-size: 21px;
+font-weight: 600;
+letter-spacing: 0em;
+text-align: left;
+color: #FF5D01;
+}
+
+.qdate{
+    position: absolute;
+    top: 65%;
+    left: 4%;
+    font-family: Poppins;
+    font-size: 13px;
+font-weight: 600;
+letter-spacing: 0em;
+text-align: left;
+color: #60B84B;
+}
+
+.qnumber img{
+    width: 30%;
+}
+
+.allcontent::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  .allcontent::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 2px; 
+  }
+  
+  .allcontent::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
